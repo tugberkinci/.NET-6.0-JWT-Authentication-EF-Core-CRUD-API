@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JwtAuthentication</name>
+    </assembly>
+    <members>
+        <member name="M:JwtAuthentication.Controllers.UserController.Get">
+            <summary>
+            Get all data 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:JwtAuthentication.Services.UserService.GetAllData">
+            <summary>
+            Get all data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:JwtAuthentication.Services.UserService.Post(JwtAuthentication.Models.UserModel)">
+            <summary>
+            Post new user 
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtAuthentication.Services.UserService.GetById(System.Int32)">
+            <summary>
+            Get by user id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtAuthentication.Services.UserService.Update(System.Int32,JwtAuthentication.Models.UserModel)">
+            <summary>
+            Update exsist data.
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtAuthentication.Services.UserService.Delete(System.Int32)">
+            <summary>
+            Delete by user id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
